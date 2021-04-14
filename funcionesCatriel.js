@@ -1,2 +1,2 @@
 let saltar = "alto"
-let cantar = "mal"
+let cantar = "muymal"
