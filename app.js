@@ -1,0 +1,1 @@
+let catriel = 10
