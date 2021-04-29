@@ -1,18 +1,22 @@
 const express = require ("express");
-const app = express ();
 const path = require ("path");
 
-app.use(express.static("public"))
+const app = express ();
+
+const publicPatch = patch.resolve(__dirname,"./public");
+
+app.use(express.static(publicPatch))
 
 app.listen (3030, ()=>{
 console.log ("Mi servidor express esta funcionando en port 3030")
 });
 
-app.get('/', (req, res) => {
-    res.sendFile (path.join (__dirname, "/views/src/home.html"))
+app.get('/home', (req, res) => {
+    res.sendFile (path.join (__dirname, "/views/home.html"))
 });
 
 
+/*
 app.get('/babbage', (req, res) => {
     res.sendFile (path.join (__dirname, "/views/babbage/babbage.html"))
 });
@@ -39,5 +43,5 @@ app.get('/lovelace', (req, res) => {
 
 app.get('/turing', (req, res) => {
     res.sendFile (path.join (__dirname, "/views/turing.html"))
-});
+});*/
 
