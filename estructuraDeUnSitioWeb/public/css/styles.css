@@ -23,3 +23,139 @@ h2 {
     font-weight: bold;
     text-align: center;
 }
+
+
+main {
+    width: 90vw; margin: auto;
+  }
+  
+  .main-header-top-bar {
+    width: 90%; display: flex; justify-content: space-between; flex-wrap: wrap;
+  }
+  
+  #top-logo { 
+    flex: 1 1 50%;
+  }
+  
+  #top-logo .logo {
+    width: 100%;
+  }
+  
+  #buscador {
+     flex: 1 1 50%;
+    }
+  
+  .main-header-top-bar .copy-header{
+    font-weight: 400; 
+    text-align: center; 
+    display: block; 
+    flex: 1 1 100%; 
+    padding: 15px 0; 
+    margin-left: 15px; 
+  }
+  
+  .main-navbar {
+    display: none;
+  }
+  
+  .main-navbar ul {
+    list-style: none; 
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .main-navbar ul a {
+    text-decoration: none; 
+    color: #222222; 
+    display: inline-block;
+    padding: 5px 0; 
+    font-size: 17px;
+  }
+  
+  .main-navbar ul a:hover {
+    text-decoration: none; 
+    color:#1758BB;
+  }
+  
+  #ultimaVisita article, #ofertas article {
+    background-color: #fff; 
+    text-align: center; 
+    margin-bottom: 10px; 
+    padding: 15px; 
+    transition: all 0.3s; 
+  }
+  
+  #ultimaVisita h3, #ofertas h3 {
+    font-size: 24px; 
+    color: #666; 
+    font-weight: 500; 
+    margin: 25px 0 10px 0; 
+  }
+  
+  #ultimaVisita img, #ofertas img {
+    width: 100%; 
+  }
+  
+  .precios{
+    font-size: 18px; 
+    text-align: left;
+    width: 30%;
+  }
+  
+  .descuentos{
+    font-size: 16px; 
+    color: #39b54a; 
+    text-align: left; 
+    width: 70%;
+  }
+  
+  .descripciones{
+    font-size: 16px; 
+    text-align: left; 
+    padding-top: 5px; 
+    color:#fff;
+  }
+  
+  #ultimaVisita article:hover .descripciones{
+    color:#000;
+  }
+  
+  #ofertas article:hover .descripciones{
+    color:#000;
+  }
+  
+  #ultimaVisita article:hover, #ofertas article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+    animation: camion 0.5s 1;
+  }
+  footer {
+    background-color: #fff; 
+    bottom: 0; 
+  }  
+
+  footer section {
+    text-align: center; 
+    margin: 25px; 
+  }   
+
+  footer h4{
+    color: #666; 
+    font-size: 18px; 
+  }
+
+  footer p{
+    color: #666; 
+    max-width: 75%; 
+    margin: auto;
+  }
+
+  footer h5{
+    color: #666; 
+    text-align: left; 
+    font-size: 10px; 
+    font-weight: 500; 
+    margin: 30px 0 15px 15px; 
+    padding-bottom: 25px; 
+    display: block; 
+    width: 100%;
+  }
