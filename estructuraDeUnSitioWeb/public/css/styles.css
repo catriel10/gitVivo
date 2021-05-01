@@ -182,3 +182,7 @@ article div.main-article i{
     right: 20px;
     top: -25px;
     }
+
+    .precios,.descuentos{
+      width: 50%;
+  }
