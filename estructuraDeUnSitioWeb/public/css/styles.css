@@ -5,10 +5,6 @@ body {
     font-size: 12 px;
 }
 
-
-footer {
-    background-color: #FFFFFF;
-}
 h5 {
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
@@ -24,6 +20,14 @@ h2 {
     text-align: center;
 }
 
+.products{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 45%;
+}
 
 main {
     width: 90vw; margin: auto;

@@ -1,0 +1,15 @@
+{
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "mercadoLiebre",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "grupo4",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
