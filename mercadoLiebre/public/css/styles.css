@@ -1,3 +1,24 @@
+* { 
+  box-sizing: border-box;
+  margin: 0px; 
+  padding: 0px;}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+  
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+  
+}
+
 header {
 background-color: #EAC926;
 padding: 20px;
@@ -17,6 +38,15 @@ main {
     padding-top: 20px;
 }
 
+.fa-bars {
+  color: white;
+  display: block;
+  text-align: center;
+  background-color: blue;
+  padding-block: 5px;
+  border-radius: 10px;
+  margin: auto;
+}
 .banner img{
     width: 100%;
   }
@@ -33,7 +63,7 @@ img {
     background-position: center;
 }
 
-  #top-logo { 
+#top-logo { 
     flex: 1 1 50%;
 }
   
@@ -44,7 +74,6 @@ img {
 #buscador { 
     flex: 1 1 30%;
 }
-
 
 h5 {
     font-family: 'Roboto', sans-serif;
@@ -81,13 +110,13 @@ footer h4{
     font-size: 18px; 
   }
 
-  footer p{
+footer p{
     color: grey; 
     max-width: 75%; 
     margin: auto;
   }
 
-  footer h5{
+footer h5{
     color: grey; 
     text-align: left; 
     font-size: 10px; 
@@ -99,7 +128,7 @@ footer h4{
   }
 
 
-  footer.ft {
+footer.ft {
     border-radius: 0;
     margin: 20px auto;
     background-color: #fff;
@@ -132,9 +161,10 @@ footer h4{
   }
 
   .fa-truck {
+    padding: 5px;
     color: #39b54a;
     border-style: #39b54a;
-    border-style: solid;
+    border: solid;
     border-width: 1px;
     border-radius: 50px;
     float: right;
@@ -159,7 +189,6 @@ footer h4{
     font-size: 16px;
     color: #666;
   }
-* { 
-box-sizing: border-box;
-margin: 0px; 
-padding: 0px;}
+
+
+
