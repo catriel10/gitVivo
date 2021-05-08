@@ -4,6 +4,13 @@ padding: 20px;
 margin: auto;
 }
 
+body {
+  background-color: #EBEBEB;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+
 main {
     width: 90vw;
     margin: auto;
@@ -13,26 +20,12 @@ main {
 .banner img{
     width: 100%;
   }
-img{
+img {
     width: 50%;
     image-orientation: center;
     display: block;
     margin: 0 auto;
   }
-
-  .descuentos{
-    font-size: 16px; 
-    color: #39b54a; 
-    text-align: left; 
-    width: 70%;
-  }
-
-  .precios{
-    font-size: 18px; 
-    text-align: left;
-    width: 30%;
-  }
-
 .banner {
     width: 100%;
     background-size: 100vw;
@@ -44,24 +37,14 @@ img{
     flex: 1 1 50%;
 }
   
-  #top-logo .logo {
-    width: 400px;
-}
-
 .logo {
-    width: 400px;
+    width: 200px;
 }
 
 #buscador { 
     flex: 1 1 30%;
 }
 
-body {
-    background-color: #EBEBEB;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-}
 
 h5 {
     font-family: 'Roboto', sans-serif;
@@ -117,7 +100,7 @@ footer h4{
 
 
   footer.ft {
-    border-radius: 20px;
+    border-radius: 0;
     margin: 20px auto;
     background-color: #fff;
     padding: 35px 0 0 0;
@@ -125,7 +108,7 @@ footer h4{
   }
   
 .lv, .of {
-    border-radius: 20px;
+    border-radius: 0;
     margin: 20px auto;
     background-color: #fff;
     padding: 15px 0;
@@ -141,6 +124,7 @@ footer h4{
     transform: rotate(360deg);
     animation-name: trans;
     animation-duration: 3s;
+    
   }
   
   .lv:hover, .of:hover {
@@ -149,18 +133,31 @@ footer h4{
 
   .fa-truck {
     color: #39b54a;
-    transition: 1s;
-    float: left;
+    border-style: #39b54a;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    float: right;
+    }
 
-  }
-
-  .lv:hover .fa-truck, .of:hover .fa-truck {
-    transform: rotate(360deg);
-    animation-name: trans;
-    animation-duration: 3s;
-  }
   .fa-credit-card, .fa-gift, .fa-user-shield {
     color: #1259c3;
+  }
+
+  .precios {
+    font-size: 18px;
+    margin: auto;
+  }
+  
+  .descuento {
+    font-size: 16px;
+    color: #39b54a;
+    margin: 1px;
+  }
+  
+  .descripcion {
+    font-size: 16px;
+    color: #666;
   }
 * { 
 box-sizing: border-box;
