@@ -47,15 +47,15 @@
     <!-- Formulario-->
 
     <form action="/crear-producto" method="POST" class="create-form"> 
-        <div classs="control-formulario">
+        <div class="control-formulario">
             <label>Nombre del Producto:</label>
             <input type="text" name="nombre" class="control">
         </div>
-        <div classs="control-formulario">
+        <div class="control-formulario">
             <label>Precio:</label>
             <input type="text" name="precio" placeholder="123.56" class="control" >
         </div>
-        <div classs="control-formulario">
+        <div class="control-formulario">
             <label>Categoría:</label>
             <select name="categoria" class="control">
                 <option value="hogar">Hogar</option>
@@ -63,7 +63,7 @@
                 <option value="indumentaria">Indumentaria</option>
             </select>
         </div>
-        <div classs="control-formulario">
+        <div class="control-formulario">
             <label>Ciudad:</label>
             <select name="ciudad" class="control">
                 <option value="baires">Buenos Aires</option>
@@ -71,16 +71,18 @@
                 <option value="mdz">Mendoza</option>
             </select>
         </div>
-        <div classs="control-formulario">
+        <div class="control-formulario">
             <label>Descripción:</label>
             <textarea name="descripcion" class="control"></textarea>
         </div>
-        <div classs="control-formulario">
+        <div class="control-formulario">
             <label>Está en Oferta:</label>
             <input type="radio" name="enOferta">
         </div>
+        
+        <button type="reset" class="boton-formulario">Borrar</button>
         <button type="submit" class="boton-formulario">Guardar</button>
-        <button type="reset">Borrar</button>
+        
     </form>
    
     <main>

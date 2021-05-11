@@ -220,25 +220,33 @@ footer.ft {
 
     .create-form {
       padding:20px 15px;
+      font-weight: bold;
+      max-width: 360px;
     }
-    .control-formlario label {
-      margin-bottom: 15px;
+
+    .control-formulario label {
+      margin: 10px;
       font-style: italic;
       display: block;
+      font-weight: bold;
+    
     }
     .control {
       width: 100%;
-      padding: 8px 8px;
+      padding: 8px;
+      font-weight: bold;
     }
 
-    .botom-formulario {
+    .boton-formulario {
       background-color: #39b54a;
       border: none;
       padding: 5px 10px;
       font-size: 20px;
       color: #fff;
       border-radius: 5px;
+      font-weight: bold;
     }
+
   @media (min-width: 576px) {
 
     .main-header-top-bar {
