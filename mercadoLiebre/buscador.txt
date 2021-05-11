@@ -1,0 +1,8 @@
+            <section id="buscador">
+                <div class="box" action="#" method="GET">
+                    <div>
+                        <i class="fa fa-search"></i>
+                        <input type="search" id="search" placeholder="Buscar productos, marcas y más..." /> 
+                    </div>
+                </div>
+            </section>

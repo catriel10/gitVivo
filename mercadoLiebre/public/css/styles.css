@@ -3,22 +3,6 @@
   margin: 0px; 
   padding: 0px;}
 
-@media (min-width: 576px) {
-
-}
-
-@media (min-width: 768px) {
-  
-}
-
-@media (min-width: 992px) {
-
-}
-
-@media (min-width: 1200px) {
-  
-}
-
 header {
 background-color: #EAC926;
 padding: 20px;
@@ -38,41 +22,58 @@ main {
     padding-top: 20px;
 }
 
-.fa-bars {
+.hamburguer-button {
   color: white;
+  background-color: #03264C;
   display: block;
-  text-align: center;
-  background-color: blue;
-  padding-block: 5px;
+  max-width: 40px;
+  padding: 10px 0px;
   border-radius: 10px;
-  margin: auto;
+  text-align: center;
+  font-size: 18px; 
+  margin: auto; 
+}
+.main-header-top-bar .logo{
+  float: left;
+
+}
+.main-navbar {
+  display: none;
+}
+.main-navbar ul{
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-navbar a{
+  text-decoration:none;
+  color: #222222;
+  display:inline-block;
+  padding: 5px 0;
+  font-size: 17px;
+  align-content: stretch;
+}
+
+.logo {
+  width: 200px;
+  float: left;
+  text-align: left;
 }
 .banner img{
     width: 100%;
   }
 img {
     width: 50%;
-    image-orientation: center;
     display: block;
     margin: 0 auto;
-  }
+      }
+
 .banner {
     width: 100%;
     background-size: 100vw;
     margin: auto;
     background-position: center;
-}
-
-#top-logo { 
-    flex: 1 1 50%;
-}
-  
-.logo {
-    width: 200px;
-}
-
-#buscador { 
-    flex: 1 1 30%;
 }
 
 h5 {
@@ -85,18 +86,26 @@ h5 {
 h3 {
     font-family: 'Roboto', sans-serif;
     color: grey;
-    font-weight: 300;
-    font-size: 30px;
+    font-weight: 400;
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
 }
-
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
+h2 .copy-header {
+  font-family: 'Roboto', sans-serif;
+  color: #222222;
+  font-weight: 700;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+  max-width: 160px;
+  display: block;
+  margin: 0px; 
+  padding: 0px;
+}
+.copy-header {
+  font-family: 'Roboto', sans-serif;
+  color: #222222;
 }
 
 footer {
@@ -107,7 +116,7 @@ footer {
 
 footer h4{
     color: grey; 
-    font-size: 18px; 
+    font-size: 12px; 
   }
 
 footer p{
@@ -126,7 +135,6 @@ footer h5{
     display: block; 
     width: 100%;
   }
-
 
 footer.ft {
     border-radius: 0;
@@ -190,5 +198,133 @@ footer.ft {
     color: #666;
   }
 
+  
+  @media (min-width: 350px) {
+    
+    .main-header-top-bar {
+      border: dotted 2px red;
+      justify-content: space-between;
+    }
 
+    .copy-header{
+      border: dotted 2px green;
+      max-width: 360px;
+      text-align: center;
+    }
 
+  .logo {
+      width: 200px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .create-form {
+      padding:20px 15px;
+    }
+    .control-formlario label {
+      margin-bottom: 15px;
+      font-style: italic;
+      display: block;
+    }
+    .control {
+      width: 100%;
+      padding: 8px 8px;
+    }
+
+    .botom-formulario {
+      background-color: #39b54a;
+      border: none;
+      padding: 5px 10px;
+      font-size: 20px;
+      color: #fff;
+      border-radius: 5px;
+    }
+  @media (min-width: 576px) {
+
+    .main-header-top-bar {
+      border: dotted 2px red;
+      display: flex;
+      justify-content: space-between;
+    }
+    .copy-header{
+      max-width: 350px;
+      text-align: right;
+    }
+  .logo {
+      width: 200px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .main-header-top-bar {
+      border: dotted 2px red;
+      display: flex;
+      justify-content: space-between;
+    }
+    .copy-header{
+      max-width: 350px;
+      text-align: right;
+      justify-content:center
+    }
+  .logo {
+      width: 200px;
+      margin: 0;
+      padding: 0;
+    }
+    .main-navbar {
+
+      border: dotted 2px green;
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      margin: 0;
+      padding: 0;
+      }
+
+      .main-navbar ul{
+        display: flex;
+      }
+      .main-navbar li {
+        margin: 0 5px;
+      }
+      .hamburguer-button {
+        display: none;
+      }
+  }
+  
+  @media (min-width: 992px) {
+
+  }
+  
+  @media (min-width: 1200px) {
+    .main-header-top-bar, .main-navbar {
+      border: dotted 2px red;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .logo {
+      width: 300px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .copy-header {
+      max-width: none;
+      text-align: right;
+      font-weight: 700;
+      padding-top: 30px;
+    }
+
+    .main-navbar li{
+    margin: 0 10px;
+    font-weight: 700;       
+    }
+
+    .main-navbar a {
+      margin: 0 19px;       
+      }
+    }
+  }
