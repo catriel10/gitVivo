@@ -1,0 +1,47 @@
+<form action="alta usuario" method="GET" class="create-user"> 
+    <div class="control-formulario">
+        <label>Nombre y Apellido:</label>
+        <input type="text" name="nombre-apellido" placeholder="Nombre y Apellido" class="control">
+    </div>
+    <div class="control-formulario">
+        <label>Usuario:</label>
+        <input type="text" name="usuario" placeholder="Usuario" class="control">
+    </div>
+    <div class="control-formulario">
+        <label>Fecha de Nacimiento:</label>
+        <input type="date" name="fecha-nacimiento" placeholder="Fecha de nacimiento" class="control">
+    </div>
+    <div class="control-formulario">
+        <label>Domicilio:</label>
+        <input type="text" name="domicilio" placeholder="Domicilio" class="control">
+    </div>
+    <div class="control-formulario">
+        <label>Selecciona tu perfil de Usuario:</label>
+        <label><input  type="radio" name="perfil-usuario" value="Comprar">Comprar</label>
+        <label><input type="radio" name="perfil-usuario" value="Vender">Vender</label>
+    </div>
+    <div class="control-formulario">
+        <label for=“category”>¿Cuál es su categoría de interés?</label>
+        <input type=“checkbox” name=“category” id=“category” value=“Electro” required /> Electro
+        <input type=“checkbox” name=“category” id=“category” value=“Moda” required /> Moda
+        <input type=“checkbox” name=“category” id=“category” value=“Hogar” required /> Hogar
+        <input type=“checkbox” name=“category” id=“category” value=“Juguetería” required /> Juguetería
+        <input type=“checkbox” name=“category” id=“category” value=“Vidasana” required /> Vida sana
+    </div>
+    <div class="control-formulario">
+        <label>Ingresá una foto</label>
+        <input type="file" name="foto" accept=".jpg" multiple class="control">
+    </div>
+    <div class="control-formulario">
+        <label for=“password”>Ingrese un password</label>
+        <input type=“password” name=“password” id=“password” required />
+    </div>
+    <div class="control-formulario">
+        <label for=“confirm-password”>Confirme un password</label>
+        <input type=“confirm-password” name=“confirm-password” id=“password” required />
+    </div>
+
+    <button type="reset" class="boton-formulario">Borrar</button>
+    <button type="submit" class="boton-formulario">Guardar</button>
+   
+</form>
