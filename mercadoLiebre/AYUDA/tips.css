@@ -1,0 +1,17 @@
+  .main-header-top-bar {
+      border: dotted 2px red;
+      justify-content: space-between;
+    }
+    
+   .descripcion {
+    display:none;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.70);
+    margin: 0;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }

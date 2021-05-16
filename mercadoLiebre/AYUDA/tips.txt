@@ -1,5 +1,0 @@
-  .main-header-top-bar {
-      border: dotted 2px red;
-      justify-content: space-between;
-    }
-    
