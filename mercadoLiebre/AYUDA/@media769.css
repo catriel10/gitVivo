@@ -1,0 +1,38 @@
+
+  @media (min-width: 769px) {
+    .main-header-top-bar {
+      display: flex;
+      justify-content: space-between;
+    }
+    .copy-header{
+      max-width: 350px;
+      text-align: right;
+      justify-content:center
+    }
+  .logo {
+      width: 200px;
+      margin: 0;
+      padding: 0;
+    }
+    .main-navbar {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      margin: 0;
+      padding: 0;
+      }
+
+      .main-navbar ul{
+        display: flex;
+      }
+      .main-navbar li {
+        margin: 0 5px;
+      }
+      .hamburguer-button {
+        display: none;
+      }
+      .banner img{
+        width: 100%;
+        margin-top: 121px;
+      }
+  }

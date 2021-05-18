@@ -1,0 +1,59 @@
+@media (min-width: 361px) {
+
+    .articulos .lv{
+      flex-basis: 50%;
+  }
+
+    .descripcion {
+      display:block;
+      font-size: 16px;
+      margin: 0px;
+      padding: 0px;
+      left: 0;
+      width: 100%;
+    }
+
+    .main-header-top-bar {
+      justify-content: space-between;
+    }
+
+    .copy-header{
+      max-width: 360px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 50%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .create-form {
+      padding:20px 15px;
+      font-weight: bold;
+      max-width: 360px;
+              }
+
+    .control-formulario label {
+      margin: 10px;
+      font-style: italic;
+      display: block;
+      font-weight: bold;
+    
+    }
+    .control {
+      width: 100%;
+      padding: 8px;
+      font-weight: bold;
+    }
+
+    .boton-formulario {
+      background-color: #39b54a;
+      border: none;
+      padding: 5px 10px;
+      font-size: 20px;
+      color: #fff;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+}
