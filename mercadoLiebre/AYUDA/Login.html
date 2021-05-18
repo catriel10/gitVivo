@@ -48,21 +48,24 @@
         </div> 
 
     </header>
+    
     <main>
-        <form action="login usuario" method="GET" class="login-user"> 
-            <div class="control-formulario-login">
+        <form action="alta usuario" method="GET" class="create-user"> 
+          
+            <div class="control-formulario">
                 <label>Usuario:</label>
-                <input type="text" name="usuario" placeholder="Usuario" class="control-login" required>
+                <input type="text" name="usuario" placeholder="Usuario" class="control">
             </div>
-            <div class="control-formulario-login">
-                <label for="password">Ingrese un password:</label>
+            <div class="control-formulario">
+                <label for="password">Ingrese un password</label>
                 <input type="password" name="password" id="password" required />
             </div>
-    
-            <button type="submit" class="boton-formulario-login">Enviar</button>
+
+            <button type="submit" class="boton-formulario">Guardar</button>
            
         </form>
     </main>
+
     <footer class="ft">
         <section>
             <div class="ft-metodos">
@@ -88,3 +91,6 @@
         </section>      
     </footer>
 </body>
+
+
+

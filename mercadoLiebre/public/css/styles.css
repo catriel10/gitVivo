@@ -10,6 +10,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  
   z-index:100;
   max-width: 100vw
    }
@@ -17,6 +18,14 @@
 .main-header-top-bar {
   display:inline-block;
   justify-content: space-between;
+  }
+
+ 
+.logo {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-right: 10px;
   }
 
 .box{
@@ -28,33 +37,31 @@
     }
 
 .container-1{
-    width: 50%;
-    vertical-align: middle;
-    white-space: nowrap;
-    position: relative;
-    margin-top: 15px;
-  }
-  
-.logo {
-    width: 50%;
-    float: left;
-    text-align: left;
-    margin-right: 10px;
-  }
+  width: 50%;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 0px;
+}
 
 .fa-search {
-    background-color: white;
-    border: solid rgb(118, 118, 118) 1px;
-    padding: 1px;
-    border-radius: 1px;
+  background-color: white;
+  border: solid white 3.5px;
+  padding: 15px 5px;
+  border-radius: 5px;
+  color: grey;
+  margin-left: -15px;
   }
   
 .search {
-  width: 30vw;
-  margin:5px;
-  vertical-align: middle;
+  width: 35vw;
+  margin: 5px;
+  background-color: white;
+  border: solid white;
+  padding: 15px;
+  border-radius: 5px;
+  color: grey;
 }
-
   
 body {
   background-color: #EBEBEB;
@@ -112,7 +119,7 @@ main {
 
 .banner img{
     width: 100%;
-    margin-top: 175px;
+    margin-top: 192px;
     padding: 0px;
     z-index:99
   }
@@ -357,18 +364,21 @@ main section article i {
 
 .create-user {
   display: block;
-  padding: 20px 15px;
+  /* padding: 20px 15px; */
   position: relative;
-  margin-top: 140px;
-  margin-left: 30px;
-  max-width: 100vw;
-  align-content: center;
-} 
+  margin-top: 220px;
+  /* margin-left: 30px; */
+  /* max-width: 100vw; */
+  /* align-content: center; */
+  /* padding: 40px; */
+  /* margin: 40px auto; */
+  margin-left: 10vw;
+}
 
 .create-form {
   padding:20px 15px;
   font-weight: bold;
-  max-width: 360px;
+  max-width: 350px;
           }
 
 .control-formulario label {
@@ -376,12 +386,14 @@ main section article i {
   font-style: italic;
   display: block;
   font-weight: bold;
-
+  max-width: 350px;
 }
+
 .control {
-  width: 360;
   padding: 8px;
   font-weight: bold;
+  max-width: 350px;
+  align-content: center;
 }
 
 .boton-formulario {
@@ -393,6 +405,7 @@ main section article i {
   color: #fff;
   border-radius: 5px;
   font-weight: bold;
+  max-width: 350px;
 }
 
 /* Formulario Login */
@@ -400,12 +413,13 @@ main section article i {
 .login-user {
   display: block;
   padding: 20px 15px;
-  margin-top: 140px;
+  margin-top: 260px;
+  margin-bottom: 260px;
   margin-left: 30px;
-  width: 360px;
+  width: 300px;
   max-width: 100vw;
   align-content: center;
-} 
+ } 
 
 .control-login {
   width: 360;
@@ -442,7 +456,7 @@ main section article i {
   @media (min-width: 361px) {
 
 .main-header {
-      height: 90px;
+      height: 120px;
 }
 
 
@@ -500,7 +514,7 @@ main section article i {
 }
 
 .logo {
-  width: 30vw;
+  width: 40vw;
   display: block;
   max-width:120px;
   margin: 0;
@@ -519,7 +533,6 @@ main section article i {
 .search {
   width: 20vw;
   margin:5px;
-  vertical-align: middle;
 }
 
 h2 {
@@ -570,13 +583,14 @@ h3 {
 
 .banner img{
   width: 100%;
-  margin-top: 90px;
+  margin-top: 120px;
 }
 
 footer {
   background-color: #fff; 
   bottom: 0;
   text-align: center; 
+  bottom:0;
 }
 
 footer h4{
@@ -612,12 +626,13 @@ footer.ft {
 }
 
 .create-user {
-  margin-top: 90px;
+  margin-top: 120px;
 } 
   @media (min-width: 769px) {
 
+    
 .main-header {
-  height: 120px;
+  height: 150px;
 }
 
 .precios, .descuento {
@@ -691,7 +706,6 @@ footer.ft {
 .search {
   width: 30vw;
   margin:5px;
-  vertical-align: middle;
 }
 
 h2 {
@@ -741,7 +755,7 @@ h3 {
 }
 .banner img{
   width: 100%;
-  margin-top: 120px;
+  margin-top: 150px;
 }
 
 .fa-credit-card, .fa-gift, .fa-user-shield {
@@ -750,10 +764,39 @@ h3 {
   margin-bottom: 10px;
   transition: 1s;
 }
+
 .fa-credit-card:hover, .fa-gift:hover, .fa-user-shield:hover {
   color: #39b54a;
   font-size: 2em;
   margin-bottom: 10px;
 }
+
+.ft {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0;
+  padding:0;
+}
+
+.ft-metodos {
+  margin: 5px;
+  background-color: #fff;
+  padding: 5px 5px;
+  max-width: 30vw;
+  position: relative;
+  justify-content: space-between;
+  display: inline-block;
+  align-content: center;
+  left: 0px;
+  color: #1259c3;
+  font-size: 0.75em;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+.create-user {
+  margin-top: 170px;
+} 
 }
 }
